@@ -1,0 +1,42 @@
+--[M1S04] Ex 1 - Criar novo banco de dados
+--Através da ferramenta PGAdmin crie um novo banco de dados com nome canasvieiras.
+--Copie o comando utilizado como resposta para este exercício e os demais desta lista em --arquivo com extensão .sql
+--Exemplo : M1S04EX1.sql
+
+
+CREATE DATABASE canasvieiras
+    WITH
+    OWNER = postgres
+    ENCODING = 'UTF8'
+    CONNECTION LIMIT = -1
+    IS_TEMPLATE = False;
+
+
+CREATE DATABASE "canasvieiras"
+    WITH
+    OWNER = postgres
+    ENCODING = 'UTF8'
+    CONNECTION LIMIT = -1
+    IS_TEMPLATE = False;
+
+--[M1S04] Ex 2 - Criar tabela no banco de dados canasvieiras
+--Com o banco canasvieiras já criado, agora crie uma tabela com nome aluno, utilize 
+--o modelo na imagem abaixo para definição das colunas.
+
+
+Create table alunos1 (
+	id_matricula bigint ,
+	nome varchar(50) ,
+	cpf varchar(11) ,
+	is_turma bigint ,
+	email varchar(50)
+	)
+
+
+--[M1S04] Ex 3 - Alterar tabela aluno adicionando colunas 
+--Após já ter realizado os exercícios 1 e 2 , faça agora uma alteração na tabela,
+--incluindo uma nova coluna "ativo" do tipo verdadeiro ou falso , e também uma coluna
+--“contato” do tipo texto
+
+ALTER TABLE alunos
+	ADD CONSTRAINT ativo PRIMARY KEY (id_produto;)

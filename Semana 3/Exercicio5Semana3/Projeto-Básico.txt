@@ -1,0 +1,116 @@
+
+
+[M1S03] Ex 5 - Utilizando o GitBash/Terminal crei um projeto básico no IntelliJ e envie para sua conta no GitHub usando os comandos do Git
+
+AGORA FAREMOS O NOSSO PRIMEIRO PROJETO IREMOS ENVIAR O NOSSO PRIMEIRO PROJETO PARA O GITHUB
+
+	// 1. Vamos criar um projeto no IntelliJ IDEA e enviaremos para o GitHub esse projeto
+
+	// 2. Vamos Abrir o IntelliJ IDEA
+
+	// 2. Iniciar um nono projeto
+	
+	// 4. Nome: MeuPrimeiroRepositorio
+
+	// 5. Clicar como o botão direito no projeto
+
+	// 6. Clicar o o botão direito no projeto -> clicar em Open in -> escolher Explore/ no mac Finder
+
+	// 7. Abre a pasta do projeto na minha máquina
+
+        // 8. Abrir pastinha do projeto
+
+	// 9. Clicar em algum lugar vazio na página com o botão direito do Mouse 
+
+	// 10 selecionar Git Bach Here * Jaime ficou de orientar caminho para o MAC
+
+	// 11 Agora temos que mandar esse projeto para o HitHub
+
+	// 12 Alguns Comando: Para eu dizer que esta pasta do computador, ela vai começar a trabalhar co Git, 
+		temos que rodar comandos no terminal
+
+		// 12.1 git init (iniciar git nessa pasta, é isso que estou dizendo para o meu computador)
+ 			Que estou trabalhando com o verzionamento Git
+
+		// 12.2 O segundo comando que vamos rodar (quero adicionar todos os comandos desta pasta) e o comando é:
+			git add .
+
+		// 12.3 O segundo comando que vamos rodar agora vai ser uma verificação se os arquivos que adicionei, foram 
+			adicionados de fato no Git que é o comando: git status (enter)
+
+		// 12.4 O proximo comando será : git commit -m "Meu primeiro comia"
+	
+		// 12.5 "Meu primeiro commit" cria uma foto do que estamos fazendo
+
+		// 12.6 Para ver se deu certo 
+
+		// 12.7 Muda par o IntelliJ e troca "Hello Word" para "oi"
+
+		// Volta para o terminal Gibach e digita git status
+
+		// 12.8 Já avisou o Marcel modificou o arquivo Men.java
+
+		// 12.9 Dá um control+Z no terminal volta para o GitBach de novo e Digita um git status ele mantem a mensagem "Hello Word"
+
+
+	// 13 PRÓXIMO PASSO: IREMOS CRIAR UMA RAMIFICAÇÃO (UMA NOVA VERSÃO) CRIAR UM NOVO PEDAÇO NA NOSSA MÁQUINA 
+
+		13.1 No termina digite o comando: git branch -M master (enter)
+		
+		13.2 Voltamos para o navegador da WEB Github : https://github.com/settings/keys
+
+		13.3 Nonato superior Direito em ciam da minha foto, vamos na página Seus Repositórios (Your repositórios)
+	
+		13.4 clicar no botão verde "New"
+
+		13.5 O nome do repositório usaremos o mesmo "MeuPrimeiroRepositorio"
+		
+		13.6 Descrição: deixa em branco
+
+		13.7 Seleciona Public
+
+		13.8 Clica Create repository (Criar repositório)
+
+		13.9 Ai criamos a nossa primeira pasta no nosso servidora GitHub (WEB)
+		
+		13.20 Agora teremos que alterar uma pequena configuração
+
+		13.21 Veja que no fundo azul está como HTTPS, precisamos mudar para SSH
+
+		13.22 Iremos copiar este comando: git remote add origin git@github.com:marcelfcampo/Meu-Primeiro-Reposit-rio.git
+
+		13.23 Acima Estou adicionando repositorio remoto daquele link, daquele comando SSH
+
+		13.24 Clique em copiar e no terminal cole o comando, agora conectamos as coisas, 
+			o meu IntelliJ está conversando com o meu GitHub
+
+		13.25 Ultimo passo, agora vamos mandar lá para o GitHub todo o nosso código, caso um pequeno projeto de "Hellow Word"
+
+		13.26 O comando mágico é chamado digitar no terminal: (git push -u origin master), o que esse comando faz:
+		
+		13.27 O que a gente está dizendo para o Git : Quero que jogue todo meu código para brindar master, um pedaço, uma ramificação 				master lá do GitHub, é isso que estamos fazendo com este comando.
+
+		13.28 Selecione YES (ENTER): significa que você quer conectar com o GitHub
+
+		13.29 Sempre conectado na Internet
+
+		13.39 Voltar para  GitHub WEB no nosso navegador e dar um F5 ou atualizar: Provavelmente aparecerá nossos códigos
+
+		13.40 Acabamos de mandar o primeiro projeto nosso para o GitHub 
+
+
+
+		
+
+
+
+		
+			video aula 3 gravação 4 hora 2:24:54s.  2:52:35s
+
+
+
+
+ 
+
+
+

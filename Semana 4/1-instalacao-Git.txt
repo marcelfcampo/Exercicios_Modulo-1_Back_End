@@ -1,0 +1,4 @@
+
+instalacao-Git: 
+
+// 1. Baixar - https://www.enterprisedb.com/downloads/postgres-postgresql-downloads

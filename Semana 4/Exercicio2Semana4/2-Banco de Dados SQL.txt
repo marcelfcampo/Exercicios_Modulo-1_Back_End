@@ -1,0 +1,33 @@
+
+
+
+
+
+[M1S04] Ex 2 - Criar tabela no banco de dados canasvieiras
+Com o banco canasvieiras já criado, agora crie uma tabela com nome aluno, 
+\utilize o modelo na imagem abaixo para definição das colunas.
+
+Aluno
+id_matricula bigint
+Nome varchar(50)
+Cpf varchar(11)
+is_turma bigint
+Email varchar(50)
+
+//1. Banco de dados canasvieiras já criado
+
+//2. Crie uma tabela com nome aluno
+
+//3. Clicar na ferramenta: Query Toll (lado esquerdo ícone ou Tool/Query Toll)
+
+//5. o X ao lado direito fecha a ferramenta
+
+//4. O Query Toll pode fazer: Todos os comandos de criação de tabelas, criação de colunas em tabelas
+
+
+
+Obs:. SELECT * FROM public.alunos
+
+
+
+

@@ -1,0 +1,78 @@
+
+[M1S04] Ex 1 - Criar novo banco de dados
+Através da ferramenta PGAdmin crie um novo banco de dados com nome canasvieiras.
+Copie o comando utilizado como resposta para este exercício e os demais desta lista em arquivo com extensão .sql
+Exemplo : M1S04EX1.sql
+
+
+// 1.No Gerenciador de Administração, podemos cria um banco de dados
+
+// 2. Ao lado esquerdo pgAdmin temos uma árvore de arquivos, também vemos uma árvore de servidores, pode ter mais de um servidor
+
+// 3.Árvore de servidores: Servers
+
+// 4.Árvore de banco de dados: Databases
+
+// 5 Criando um banco de dados: Botão direito em cima de PostgreSQL 15 -> selecionar Create -> clicar Database
+
+//6. Abre uma Janela para darmos um nome para esse banco de dados: canasvieiras
+
+//7. Definition: Deixar como padrão -> Securuty: Deixar como padrão -> 
+	Parameters: Deixar como padrão -> Advanced: Deixar como padrão -> SQL: É o comando que ele vais executar quando clicarmos em salvar
+
+//8. Fazer um Backup clica nobanco de dados com nome canasvieiras com o botão direito
+
+//9. Seleciona o caminho que quer salvar
+
+//10. inserir nome /M1S04EX1.sql
+
+
+
+[M1S04] Ex 2 - Criar tabela no banco de dados canasvieiras
+Com o banco canasvieiras já criado, agora crie uma tabela com nome aluno, 
+\utilize o modelo na imagem abaixo para definição das colunas.
+
+Aluno
+id_matricula bigint
+Nome varchar(50)
+Cpf varchar(11)
+is_turma bigint
+Email varchar(50)
+
+//1. Banco de dados canasvieiras já criado
+
+//2. Crie uma tabela com nome aluno
+
+//3. Clicar na ferramenta: Query Toll (lado esquerdo ícone ou Tool/Query Toll)
+
+//5. o "X ao lado direito fecha a ferramenta
+
+//4. O Query Toll pode fazer: Todos os comandos de criação de tabelas, criação de colunas em tabelas,
+ Enfim tudo que precisarmos inicialmente trabalhar com banco de dados está disponível dentro desta ferramenta Query Toll
+
+//5 Podemos criar no lado esquerdo do pgAdmin4 , clicando com o Botão direito em cima do Database criado
+Chamado canavieiras -> selecionar Create -> clicar Database
+
+//6 Abrindo a arvore de canasvieiras: selecionamos Schemas -> selecionamos public -> Tables: Encontraremos vazio, porque não 
+Criamos nenhuma tabela
+
+//7.Criar Table utilitário: -> com botão direito sobre Tables -> seleciona Create -> Table
+
+//8.Crie as colunas com os dados do aluno.
+
+//9 Em Create-Tabela -> clique em SQL -> Vemos o que o nosso comando fez em código
+
+//10. Clicar em Tables -> alunos com o botão direito mouse -> Propriedades (Properties)
+
+10. Backup de tabela: Clica em canavieiras -> botão direito -> Seleciona Backup....Seleciona o caminhos -> /M2S04EX1
+https://www.google.com/search?q=como+salvar+pgAdmin+.sql&oq=como+salvar+pgAdmin+.sql&aqs=chrome..69i57j33i160l4.31438j0j15&sourceid=chrome&ie=UTF-8#fpstate=ive&vld=cid:d008c1f7,vid:uvoEJCYwcdk
+
+
+
+[M1S04] Ex 3 - Alterar tabela aluno adicionando colunas 
+Após já ter realizado os exercícios 1 e 2 , faça agora uma alteração na tabela, incluindo uma nova coluna "ativo" do tipo verdadeiro ou falso , e também uma coluna “contato” do tipo texto 
+
+
+
+
+

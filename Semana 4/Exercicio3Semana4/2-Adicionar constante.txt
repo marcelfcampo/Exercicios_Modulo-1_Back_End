@@ -1,0 +1,8 @@
+
+
+[M1S04] Ex 3 - Alterar tabela aluno adicionando colunas 
+Após já ter realizado os exercícios 1 e 2 , faça agora uma alteração na tabela, incluindo uma nova coluna "ativo" do tipo verdadeiro ou falso , e também uma coluna “contato” do tipo texto 
+
+
+ALTER TABLE IF EXISTS public.aluno
+    ADD COLUMN ativo "char"[];

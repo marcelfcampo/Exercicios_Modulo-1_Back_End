@@ -1,0 +1,74 @@
+
+/*
+[M1S03] Ex 4 - Realize a instalação do GitBash e GitHub Desktop em seu computador
+Além de instalar, realize as configurações do git em sua máquina conforme as instruções vista na aula 4 da semana 3.
+ */
+
+//Descrevendo todos os passos necessários para instalação do GitBash e GitHub Desktop no seu computador:
+
+
+// 1.Download do GitHub Desktop: https://desktop.github.com
+
+
+// 2.Download do GitHub Desktop pela conta do estudante: nome@estudante.sesisenai.org.br
+
+
+// 3.Vai ter uma opção Create an account (cria uma conta nova) 
+
+
+// 4.O GitHub solicitará o seu email para ser cadastrado : Sugestão no momento email do estudante
+
+
+// 5.O GitHub solicitará para criar um Password:
+
+
+// 6.O GitHub solicitará para criar um username:
+
+
+// 7.O Na mesma janela ele pede se quer receber atualizações e anúncios: seleciona "sim" ou "não"
+
+
+// 8. Seleciona continuar
+
+
+// 9. O GitHubs solicitará para verificar conta, complete os objetos...
+
+
+// 10. Concluído clique na opção Create account
+
+
+// 11. O GitHubs solicitará um código de verificação
+
+
+// 12. Esse código de verificação será enviado pata o seu email cadastrado
+
+
+// 13. Copia o código de verificação enviado e cole na janela do GitHubs
+
+
+// 14. Pronto está verificado!
+
+
+// 15. Após abre uma janela do GitHubs: solicitando a quantidade de membros da sua equipe e se é estudante ou professor?
+
+
+// 16. Clica em continuar!
+
+
+// 17. Após abre um filtro: Project Management (um dos temas que serão utilizados) e Commutily (comunidade que iremos conhecer
+
+
+// 18. Usaremos uma versão free
+
+
+// 19. Pronto! Está criado a conta no GitHubs
+
+
+// 20. Para Entrar na conta use: Username ou email address e Password
+
+
+// 21. O Endereço do GitHub para login: github.com/login
+
+
+// 22. Entrar em conta de outros membros: https://github.com/marcelfcampo
+

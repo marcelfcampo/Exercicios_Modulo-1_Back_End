@@ -1,0 +1,295 @@
+
+/*
+[M1S03] Ex 4 - Realize a instalação do GitBash e GitHub Desktop em seu computador
+Além de instalar, realize as configurações do git em sua máquina conforme as instruções vista na aula 4 da semana 3.
+ */
+
+//Descrevendo todos os passos necessários para instalação do GitBash e GitHub Desktop no seu computador:
+
+
+// macOS GitBash (configuração Desktop Marcel: (Aula3,video3: 2:41)
+
+// 1.Download do GitBash Desktop: https://git-scm.com/downloads
+
+// 2.Criar Repositório
+
+// 3.Selecione URL
+
+// 3. Em GitBash Desktop clicar em: Show in Finder (Vai abrir a pasta no meu computador)
+
+
+
+// 0. Como trocar a pasta do Repositório??????
+
+
+
+Renomeando um arquivo em GitHub
+https://docs.github.com/pt/repositories/working-with-files/managing-files/renaming-a-file
+
+
+Transferindo um arquivo para um novo local em GitHub
+
+https://docs.github.com/pt/repositories/working-with-files/managing-files/moving-a-file-to-a-new-location
+
+
+
+
+
+Semana 3 - Gravação 3
+
+GitBash
+
+// 1.Download do GitBash Desktop: https://git-scm.com/downloads
+
+
+// 2.Selecionar a Plataforma (macOS ou Windows)
+
+
+// 3.Dentro da conta GitHub: github.com/login
+
+// 4.Dentro da conta GitHub tens uma organização que é o : FuturoDEV [Canasvieiras]
+
+// 5. Link: https://github.com/FuturoDEV-Canasvieiras
+
+// 6. Esse é a orgazizacão do nosso curso: https://github.com/FuturoDEV-Canasvieiras
+
+// 7. Todos os códigos que utilizarmos das aulas enm diante vamos colocar tudo aqui, ou seja
+
+// 8. Por hora os códigos estão sendo enviados no Slack para os alunos
+
+// 9. Provavelmente nas próximas semanas, os códigos não serão mais enviados no Slack
+
+// 10. Os alunos baixaram todos os códigos pelo site: https://github.com/FuturoDEV-Canasvieiras
+
+// 11. Todos os códigos serão enviados pelo repositório WEB
+
+// 12. O que os Alunos irão fazer? Nesse link enviado(https://github.com/FuturoDEV-Canasvieiras)
+
+// 13. Salve esse link (em alguma pasta): https://github.com/FuturoDEV-Canasvieiras
+
+// 14. Ai logado na nossa conta Github: github.com/login
+
+// 15. Podemos seguir clicando em: Follow
+
+// 16. Com isso já estaremos seguindo a organização: FuturoDEV-Canasvieiras
+
+// 17. No repositório: Para testar, baixar os códigos via GitHub Desktop na nossa máquina,
+
+// 18. Fazer o mesmo processo que fizemos junto com o Marcel (Aula3,video3: 2:41)
+
+// 19. Ao inserir o link (ttps://github.com/FuturoDEV-Canasvieira) e clicar em Repositórios, , e clicar em modulo-1
+
+// 20. Podemos copiar o Link da URL: https://github.com/FuturoDEV-Canasvieiras/modulo-1
+
+// 21. Como baixar o repositório na nossa Computador Desktop: Temos que sincronizar o GitHub
+
+// 22. Abrir GitHub
+
+// 23. Clicar em -> File -> New Repository
+
+// 24. Nome: testeAula3Modulo1
+
+// 25. Clicar em -> Current Repository (Repositório Atual)
+
+// 26. Clicar em -> Add (Adicionar) -> clone Repository (Clonar Repositório)
+
+// 27. Clicar em -> URL
+
+// 28. Buscar dentro Github: https://github.com/FuturoDEV-Canasvieiras/modulo-1
+
+// 30. Clicar em: (<> Code) -> Selecionar HTTPS -> Copiar URL: https://github.com/FuturoDEV-Canasvieiras/modulo-1.git
+
+// 31. Colar URL do Projeto: https://github.com/FuturoDEV-Canasvieiras/modulo-1.git
+
+// 32. No caso já existe este repositório no meu Computador Desktop
+
+// 33. EXISTEM OUTRAS MANEIRAS DE BAIXAR: EM (<>Code) PODE baixar o arquivo ZIP direto (Download ZIP) 
+
+// 34. NO .ZIP EXISTE A POSSIBILIDADE DE EXTRAIR E ABRIR DIRETO NO INTELLIJ IDEA
+
+// 35. OUTRA MANEIRAS DE BAIXAR: EM (<>Code): É ABRIR DIRETO NO (Open with Github Desktop)
+
+
+
+
+
+Semana 3 - Gravação 4
+
+COMO TESTAR O GITHUB 
+
+// 1. Copiar o link do Repository do github (https://github.com/FuturoDEV-Canasvieiras/modulo-1.git)
+
+// 2. Após clonar para a minha máquina GitHub Desktop
+
+// 3. Forma Para criar pasta com outro caminho -> Abrir github Desktop -> clicar na seta a esquerda Current Repository
+
+// 4. Clicar Add e selecionar clone Repository
+
+// 5. Vai abrir uma janela -> clicar em URL (lado esquerdo) e vamos colar o link que copiamos do GitHub Link:
+
+// 4. URL: https://github.com/FuturoDEV-Canasvieiras/modulo-1.git 
+
+// 6. Abrir <>Code
+
+// 7.Selecionar HTTP
+
+// 8. Copiar 0 Link
+
+// 9 Outra maneira de testar se está tudo funcionando é digitar (git) no terminal
+
+
+
+
+
+
+OBSERVAÇÃO IMPORTANTE: O (GITHUB) É DIRFERENTE DO (GITHUB) -> VERSIONAMENTO
+
+// 1. O (GITHUB)É UMA PLATAFORMA QUE CONTROLA TUDO,PODE SER WEB, UTILIZANDO COMO BASE O GITHUB,
+ 
+// 2. ISSO É O VERSIONAMENTO, TERMOS O CONTROLE, EX VÁRIAS FOTOS DA VERSÃO DO PROJETO, DA VERSÃO DE CADA DESENVOVEDOR
+
+// 3. VERSIONAMENTO É PODERMOS CONTROLAR AS VERSÕES DO SOFTWARE DE MANEIRA MAIS ACERTIVA, MAIS SEGURA, MAIS CONTROLADA
+
+// 4. POSSIBILITA CRIAR A ESTRUTURA OU A MANEIRA QUE QUEREMOS USAR.
+
+// 5. RESUMINDO ESSE É O VERSIONAMENTO
+
+
+
+--- CONCEITO: GIT vs GITHUB | O QUE É O VERSIONAMNTO DO CÓDIGO?
+
+- 1. É O PROCESSO DE CRIAR NOVAS VERSÕES DE UM CÓDIGO TODA VEZ QUE EXISTIR UMA MUDANÇA SIGNIFICATIVA NELE;
+
+- 2. O DESENVOLVIMENTO DE SOFTWARE É FEITO POR ETAPAS, FUNCIONALIDADES SÃO INCREMENTADAS AOS POUCOS
+	* POR ISSO, É PRECISO CRIAR VERSÕES QUE POSSAM SER RETOMADAS SEMPRE QUE NECESSÁRIO.
+
+- 3. É COMO TER VÁRIOS ARQUIVOS, SENDO QUE CADA UM CONTA COM MELHRIS EM COMPARAÇÃO COM O ANTERIO
+
+- 4. AO INVÉS DE TER QUE SALVAR MUITOS ARQUIVOS (O QUE É INVIÁVEL PARA A COMPUTAÇÃO E PARA A ORGANIZAÇÃO) SÃO FEITAS ESSAS VERSÕES, DIRETO NO CÓDIGO...
+	* COMO UMA "FOTO" DO MOMENTO ATUAL DO CÓDIGO (CTRL+S COMPARTILHADO)
+
+- 5. * JUNTAR OS CÓDIGOS REALIZADOS PELA EQUIPE CHAMA-SE MERGE
+
+
+
+--- CONCEITO: GIT vs GITHUB | O QUE É O VERSIONAMNTO DO CÓDIGO?
+
+- 1. GIR É A FERRAMENTA DE CONTROLE DE VERSÕES MAIS COMPLETA, POPULAR E UTILIZADA NO MUNDO DA PROGRAMAÇÃO;
+
+- 2. É POSSÍVEL CRIAR VERSÕES DETALHADAS, ALÉM DE OUTRAS FUNÇÕES PRESENTES QUE SÀO ÚTEIS DO DIA DIA;
+
+- 3. O GIT FUNCIONA LOCALNENTE, OU SEJAM NA MÁQUINA DO PROGRAMADOR:
+
+	* QUE OEGANIZA O CÓGIGO E SUAS VERS˜OES ENQUANTO O DESENVOLVIMENTO ESTÁ SENDO FEITO;
+- 4. DEPOS, É POSSÍVEL SUBIR TODA ESSA ORGANIZAÇÃO PARA UM REPOSITÓRIO REMOTO (SERVIDOR), O QUE É BASICAMENTE COMUM NO DIA A DIA EMPRESARIAL;
+
+- 5. NA PRÁTICA, SÃO VÁRIOS PROGRAMADORES MEXENDO NO MESMO CÓDIGO, CADA UM EM SUA MÁQUINA. DEPOIS, REÚNE-SE TUDO REMOTAMENTE (MERGE)
+
+
+--- CONCEITO: GIT vs GITHUB | O QUE É O VERSIONAMNTO DO CÓDIGO?
+
+- 1. JÁ O GIRHUB, UTILIZA O GIT MAS ACABOU TORNANDO-SE MUITO MAIS QUE UM SOFTWARE PARA CONTROLE DE VERSÃO
+
+- 2. TORNOU-SE PRATICAMENTE UMA REDE SOCOAL DE DESENVOLVEDORES;
+
+- 3. UM CURRÍCULO ONLINE PARA PROGRAMADORES;
+
+- 4. UM CENTRO DE COMUNIDADES, ETC;
+
+- 5. https://github.com/
+
+
+XXXXXXXXXXXXXXXXX
+
+https://github.com/maretoli
+
+
+
+https://education.github.com/pack : Cursos de forma gratuita
+Primer: Codespaces para cursos
+
+
+Windows
+
+
+
+// 3. GitHub já instalado
+
+// 4.O GitHub solicitará o seu email para ser cadastrado : Sugestão no momento email do estudante
+
+
+// 5.O GitHub solicitará para criar um Password:
+
+
+// 6.O GitHub solicitará para criar um username:
+
+
+// 7.O Na mesma janela ele pede se quer receber atualizações e anúncios: seleciona "sim" ou "não"
+
+
+// 8. Seleciona continuar
+
+
+// 9. O GitHubs solicitará para verificar conta, complete os objetos...
+
+
+// 10. Concluído clique na opção Create account
+
+
+// 11. O GitHubs solicitará um código de verificação
+
+
+// 12. Esse código de verificação será enviado pata o seu email cadastrado
+
+
+// 13. Copia o código de verificação enviado e cole na janela do GitHubs
+
+
+// 14. Pronto está verificado!
+
+
+// 15. Após abre uma janela do GitHubs: solicitando a quantidade de membros da sua equipe e se é estudante ou professor?
+
+
+// 16. Clica em continuar!
+
+
+// 17. Após abre um filtro: Project Management (um dos temas que serão utilizados) e Commutily (comunidade que iremos conhecer
+
+
+// 18. Usaremos uma versão free
+
+
+// 19. Pronto! Está criado a conta no GitHubs
+
+
+// 20. Para Entrar na conta use: Username ou email address e Password
+
+
+// 21. O Endereço do GitHub para login: github.com/login
+
+
+// 22. Entrar em conta de outros membros: https://github.com/marcelfcampo
+
+
+INSTALAÇÃO GIT
+// 1. Depois de criada sua conta, vamos configurar em sua máquina e IDE (IntelliJ)
+
+// 2. No caso do Git, ele precisa ser instalado e configurado na sua máquina que funcione localmente
+
+// 3. Download do GitBash Desktop: https://git-scm.com/downloads
+
+// 4. Selecionar o sistema operacional instalado na sua máquina
+
+// 5. No setup escolher a opção: Use Visual Studio Code as Git's default editor -> clica em Next para proseguir
+// 6. Antes criar um projeto no IntelliJ, precisamos fazer algumas configurações direto na nossa própria máquina
+
+?? 5. ...........
+
+https://start.spring.io/#!type=maven-project&language=java&platformVersion=3.0.2&packaging=jar&jvmVersion=17&groupId=br.com.springaula&artifactId=app&name=app&description=Exemplo%20de%20Projeto%20Spring&packageName=br.com.springaula.app&dependencies=devtools,web,data-jpa,postgresql
+
+
+DEPOIS DE CRIAR SUA CONTA E INSTALAR EM SEU DESKTOP, VAMOS APRENDER OS COMANDOS 
+
+// 1.Abrir terminal
+

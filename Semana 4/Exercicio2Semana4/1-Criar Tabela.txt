@@ -1,0 +1,16 @@
+[M1S04] Ex 1 - Criar novo banco de dados
+Através da ferramenta PGAdmin crie um novo banco de dados com nome canasvieiras.
+Copie o comando utilizado como resposta para este exercício e os demais desta lista em arquivo com extensão .sql
+Exemplo : M1S04EX1.sql
+
+
+
+CREATE DATABASE canasvieiras
+    WITH
+    OWNER = postgres
+    ENCODING = 'UTF8'
+    CONNECTION LIMIT = -1
+    IS_TEMPLATE = False;
+
+
+

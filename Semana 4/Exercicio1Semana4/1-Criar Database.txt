@@ -1,0 +1,155 @@
+--[M1S04] Ex 1 - Criar novo banco de dados
+--Através da ferramenta PGAdmin crie um novo banco de dados com nome canasvieiras.
+--Copie o comando utilizado como resposta para este exercício e os demais desta lista em --arquivo com extensão .sql
+--Exemplo : M1S04EX1.sql
+
+
+CREATE DATABASE canasvieiras
+    WITH
+    OWNER = postgres
+    ENCODING = 'UTF8'
+    CONNECTION LIMIT = -1
+    IS_TEMPLATE = False;
+
+
+CREATE DATABASE "canasvieiras"
+    WITH
+    OWNER = postgres
+    ENCODING = 'UTF8'
+    CONNECTION LIMIT = -1
+    IS_TEMPLATE = False;
+
+--[M1S04] Ex 2 - Criar tabela no banco de dados canasvieiras
+--Com o banco canasvieiras já criado, agora crie uma tabela com nome aluno, utilize 
+--o modelo na imagem abaixo para definição das colunas.
+
+
+Create table alunos1 (
+	id_matricula bigint ,
+	nome varchar(50) ,
+	cpf varchar(11) ,
+	is_turma bigint ,
+	email varchar(50)
+	)
+________________________________
+
+--[M1S04] Ex 3 - Alterar tabela aluno adicionando colunas 
+--Após já ter realizado os exercícios 1 e 2 , faça agora uma alteração na tabela,
+--incluindo uma nova coluna "ativo" do tipo verdadeiro ou falso , e também uma coluna
+--“contato” do tipo texto 
+
+
+ALTER TABLE public.alunos ADD COLUMN  ativo tipo_de_dado;
+ALTER TABLE public.alunos ADD COLUMN  ativo tipo_de_dado;
+
+
+
+
+
+create table public.alunos
+(
+Le
+
+
+insert into boll_test(ativo)
+
+
+
+
+
+http://jquerydicas.blogspot.com/2013/10/criar-uma-coluna-em-uma-tabela.html
+
+________________________________
+ALTER TABLE alunos
+	ADD CONSTRAINT ativo PRIMARY KEY (id_produto;)
+
+___________________________
+
+[M1S04] Ex 3 - Alterar tabela aluno adicionando colunas 
+Após já ter realizado os exercícios 1 e 2 , faça agora uma alteração na tabela, incluindo uma nova coluna "ativo" do tipo verdadeiro ou falso , e também uma coluna “contato” do tipo texto 
+
+___________________________
+
+[M1S04] Ex 4 - Alterar tabela aluno excluindo coluna
+Após realizar os exercícios anteriores, faça agora uma alteração na tabela aluno excluindo a coluna contato.
+
+
+
+
+
+
+________________________________
+
+SELECT * FROM public.alunos
+
+_________________________________
+
+[M1S04] Ex 5 - Inserir registros na tabela aluno
+Seguindo a tabela abaixo, realize a inserção dos registros na tabela aluno.
+
+https://www.youtube.com/watch?v=vfYw4MUx9Sw
+
+https://www.youtube.com/watch?v=vOJdflliU_E
+
+INSERT INTO public.alunos ()
+
+--Inserir registros na tabela aluno
+
+--Inserir registros na tabela aluno
+
+INSERT INTO public.alunos (id_matricula, nome, cpf, is_turma, email, ativo)
+VALUES (1,'Carlos Miguel','03856946012','1','carlosmiguel@gmail.com','Verdadeiro');
+
+INSERT INTO public.alunos (id_matricula, nome, cpf, is_turma, email)
+VALUES (1,'Carlos Miguel','03856946012','1','carlosmiguel@gmail.com');
+
+
+
+
+
+https://www.youtube.com/watch?v=8W7poUoJC38&t=2s
+
+--Ex 5 - Inserir registros na tabela aluno
+--SELEÇÃO
+--PROJEÇÃO
+--PRODUTO CARTESIANO
+--JUNÇÃO NATURAL (JUNÇÃO FECHADA)
+
+
+
+
+
+
+
+
+
+
+_________________
+
+Fazer um comando de seleção pegando todos os alunos que tenham data de nascimento anterior a 1980:
+
+SELECT * FROM public.alunos WHERE renascimento<'1980-01-01'
+
+https://www.youtube.com/watch?v=8W7poUoJC38&t=2s
+
+_____________________
+
+[M1S04] Ex 6 - Alterar registros por condição
+Agora que possuímos dados em nossa tabela aluno, realize ajuste no registro através de condição, Aluno com cpf = 43245624077 ficará inativo e sem informação de turma.
+
+SELECT nome, id_turma, 
+
+
+_____________________
+
+[M1S04] Ex 7 - Listar alunos por condição
+Listar alunos por condição, alunos ativos da turma 2 .
+
+SELECT * FROM public.alunos WHERE id_turma<'2';
+
+Video 10:30
+
+____________________
+
+
+https://www.youtube.com/watch?v=8W7poUoJC38&t=2s
